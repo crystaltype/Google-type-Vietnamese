@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fonts demo</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/reset.min.css">
+        <link rel="stylesheet" href="css/site.min.css">
+        <link rel="stylesheet" href="css/container.min.css">
+        <link rel="stylesheet" href="css/grid.min.css">
+        <link rel="stylesheet" href="css/divider.min.css">
+        <link rel="stylesheet" href="css/image.min.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/rainy.js"></script>
+        <script type="text/javascript" src="js/before.js"></script>
+
+    </head>
+
+    <body onload="onload()">
+
+        <div id="page-01" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui stackable grid">
+                                <div class="ten wide column">
+                                    <div class="content">
+                                        Sáng ngày vừa mới tinh sương, cơm trôi khỏi miệng vác choong ra đi.
+                                        Vợ nghèo ẵm trẻ hài nhi, lên tầng để búi, rồi đi đẩy goong.
+                                        Trẻ thơ nằm mối bòng bong, nô đùa muỗi cỏ, đói lòng ngậm que.
+                                        Lên tầng khuỵu gối đun xe, gò lưng mửa mật, nắng nè quản chi.
+                                    </div>
+                                    <p class="photographer">
+                                        Photo: Nguyễn Huy Hoàng
+                                    </p>
+                                </div>
+                                <div class="six wide column">
+                                    <div class="author">
+                                        <div class="wrap">
+                                            <img class="avatar" src="img/avatar.jpg">
+                                            <p class="name">OLD STANDARD, LORA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ui left aligned stackable grid">
+                                <div class="eight wide column">
+                                </div>
+                                <div class="right aligned eight wide column">
+                                    <div class="title">
+                                        <span class="word">TRÊN</span>
+                                        <span class="word">ĐƯỜNG</span>
+                                        <span class="word">ĐỜI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-02" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui stackable grid">
+                                <div class="right aligned six wide column col-title" style="padding-right: 1rem;">
+                                    <div class="title">
+                                        <span class="line">Đồng Văn</span>
+                                        <span class="line">quê hương tôi</span>
+                                        <span class="sub-line">Du lịch Đồng Văn</span>
+                                    </div>
+                                    <div class="phone-divider">
+                                        <div class="divider-line"></div>
+                                        <div class="author">BITTER, YESEVA ONE</div>
+                                    </div>
+                                </div>
+                                <div class="mobile-divider">
+                                    <div class="ui horizontal divider">BITTER, YESEVA ONE</div>
+                                </div>
+                                <div class="center aligned large screen only five wide column" style="padding: 1rem;">
+                                    <div class="divider-line"></div>
+                                    <div class="author">BITTER, YESEVA ONE</div>
+                                </div>
+                                <div class="five wide column col-content" style="padding-left: 1rem;">
+                                    <div class="content">
+                                        Du lịch cao nguyên đá Ðồng Văn là dịp để thử lòng can đảm của bạn bởi đèo cao vực thẳm.
+                                        Nhưng đổi lại, bạn được những ngày đắm mình với <span class="bold">thiên nhiên hùng vĩ</span>,
+                                        sống bên những con người còn nghèo khó nhưng vẫn tràn đầy niềm vui và hạnh phúc trong cuộc sống.
+                                        Bạn cũng sẽ được thả hồn trong tiếng khèn, tiếng sáo.
+                                        Biết đâu nó sẽ làm bạn phải ngẩn ngơ khi rời xa chốn này.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-03" class="row">
+            <img id="rainy-bg" src="img/city.jpg" alt="background" />
+            <canvas id="rainy"></canvas>
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui stackable grid">
+                                <div class="right aligned right floated six wide column col-content">
+                                    <div class="content">
+                                        Vào khoảng thời gian từ tháng 6 tới giữa tháng 7,
+                                        khi mùa xuân ấp áp nhường chỗ cho hè sang,
+                                        Hà Nội bước sang giai đoạn thời tiết mới, mưa nhiều hơn.
+                                        Khoảnh khắc đất trời trong màn mưa nhè nhẹ,
+                                        khi ấy, đất trời trong lành hơn, và đẹp đến mơ màng.
+                                        Hà Nội bước vào mùa mưa mang một nét đẹp hoài cổ, man mác buồn.
+                                    </div>
+                                    <div class="clear-float"></div>
+                                    <div class="photographer">
+                                        Photo: Nguyễn Huy Hoàng
+                                    </div>
+                                </div>
+                                <!-- <div class="ui vertical divider"></div> -->
+                                <div class="ten wide column col-title">
+                                    <div class="title">
+                                        <span>mùa mưa</span>
+                                        <span>Hà nội</span>
+                                    </div>
+                                    <div class="author">
+                                        <img class="ui avatar image" src="img/avatar_origin.jpg">
+                                        <span class="name">LIBRE FRANKLIN, PHILOSOPHER</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-04" class="row">
+            <div class="ui one column grid">
+                <div class="column">
+                    <div class="ui container">
+                        <div class="ui three column stackable grid center aligned content">
+                            <div class="column">
+                                <div class="line">
+                                    Trong cuộc sống, không ai là không có ước mơ, dù chỉ là ước mơ đơn giản.
+                                    Ước mơ là động lực để con người làm việc, học tập...
+                                    Nếu không có ước mơ, cuộc sống sẽ đơn điệu, buồn chán.
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="line">
+                                    Một ngày, buổi sáng thức dậy, ta nghĩ về giấc mơ đêm qua - đẹp quá, hồn nhiên quá.
+                                    Thế là ngày hôm đó ta vui tươi làm việc mà không thấy mệt.
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="line">
+                                    Cuộc sống cho dù vất vả, bận rộn đi chăng nữa ta vẫn thầm mơ rằng mọi việc sẽ sáng sủa, tốt đẹp hơn.
+                                    Và, cứ như vậy cuộc sống sẽ thêm thú vị, không còn tẻ nhạt nữa.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui container">
+                        <div class="photographer">
+                            <p>YANONE KAFFESATZ, PACIFICO</p>
+                            <p>PHOTO: NGUYỄN HUY HOÀNG</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" style="margin-top: 29.167vw">
+                    <div class="ui two column grid center aligned title">
+                        <div class="right aligned column line">
+                            <div class="row word one">
+                                <span>Hoài bão</span>
+                            </div>
+                            <div class="row word three">
+                                <span>Em còn</span>
+                            </div>
+                        </div>
+                        <div class="left aligned column line">
+                            <div class="row word two">
+                                <span>tuổi trẻ</span>
+                            </div>
+                            <div class="row word four">
+                                <span>nhớ không?</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-05" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui center aligned column">
+                        <div class="wraper">
+                            <div class="author">JOSEFIN SANS, DANCING SCRIPT</div>
+                            <div class="caption bold">Cái cò</div>
+                            <div class="caption soft">Lặn lội</div>
+                            <div class="caption bold two">Bờ ao</div>
+                            <div class="caption small">Hỡi cô yếm đào lấy chú tôi chăng?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-06" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui center aligned column">
+                        <div class="wraper">
+                            <div class="caption">
+                                <div class="lines">
+                                    T h i ế t k ế &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <br>
+                                    N ộ i t h ấ t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <br>
+                                    L â m A n h &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>
+                            </div>
+                            <div class="author">JOSEFIN SANS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-07" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui stackable grid">
+                                <div class="computer only eight wide column">
+                                </div>
+                                <div class="eight wide column col-content">
+                                    <div class="title">
+                                        Lặng lẽ
+                                    </div>
+                                    <div class="author">
+                                        OSWALD, MERRIWEATHER
+                                    </div>
+                                    <div class="content">
+                                        Chiều chiều gió giục cơn buồn, thương ai nước mắt nhỏ tuôn vắn dài.
+                                        Chiều chiều gió lại rung măng, đố ai biến cải thành măng cho gần.
+                                        Chiều chiều gió dặt măng oằn, sông sâu có chỗ, đất bằng có nơi.
+                                        Chiều chiều gióng giả đi chơi, uốn roi giục ngựa tới nơi vườn đào.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-08" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui one column grid">
+                                <div class="column">
+                                    <div class="right content">
+                                        <p>
+                                            Rất nhiều nơi trên thế giới cấm con người không được đứng lên bảo vệ những gì mình cho là đúng, nếu nó chống lại chính phủ.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="center aligned column">
+                                    <div class="title">
+                                        <div class="one">Tự do</div>
+                                        <div class="two">Ngôn luận</div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="left content">
+                                        <p>
+                                            Quyền con người cơ bản cần được bảo toàn, mỗi người đều có tự do phát ngôn chính kiến của mình.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author top"><span class="first">JOSEFIN</span> <span class="last">SANS</span></div>
+            <div class="author bottom">Raleway</div>
+
+            <img class="shape triangle" src="img/triangle.png">
+            <img class="shape triangle2" src="img/triangle_2.png">
+            <img class="shape circle" src="img/circle.png">
+            <img class="shape rectangle" src="img/rectangle.png">
+            <img class="shape square" src="img/square.png">
+            <img class="shape rhombus" src="img/rhombus.png">
+            <img class="shape griddot" src="img/grid_dot.png">
+        </div>
+
+        <div id="page-09" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="title">CADAO<br>DÂNCA</div>
+                            <div class="author">OSWALD, ARVO</div>
+                            <div class="subtitle">
+                                M ộ t &nbsp;n g à y &nbsp;s ố n g &nbsp;đ ấ t &nbsp;t ự &nbsp;d o &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <br>
+                                C ò n &nbsp;h ơ n &nbsp;s á u &nbsp;t h á n g &nbsp;n ằ m &nbsp;c o &nbsp;đ ấ t &nbsp;t ề &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-10" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui one column grid">
+                                <div class="column">
+                                    <div class="title">
+                                        <div class="small">Tâm hồn ta là</div>
+                                        <div class="bold">Tây Bắc</div>
+                                        <div class="author">Oswald, YESEVA ONE, MAVEN PRO</div>
+                                        <div class="photographer">Long Phi</div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="content">
+                                        Các dân tộc thiểu số ở Việt Nam hiện nay còn rất nhiều thiếu thốn.
+                                        Đặc biệt là trên vùng núi, vùng sâu vùng xa, các em nhỏ không được hưởng nền giáo dục tốt nhất.
+                                        Tỉ lệ hộ nghèo cao. Tuy góp phần lớn vào sự phong phú của di sản văn hoá Việt Nam nhưng việc giúp đỡ,
+                                        bảo tồn những giá trị văn hoá của người dân tộc lại không được quan tâm đúng mức.
+                                    </div>
+                                </div>
+                                <div class="column"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-11" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="ui stackable grid">
+                                <div class="middle aligned six wide column col-content">
+                                    <div class="left content">
+                                        Món uống không mới của giới trẻ Hà Nội, nhưng không bao giờ hạ nhiệt. Cà phê trứng ở phố Nguyễn Hữu Huân - Hà Nội có hương vị khá đặc biệt.
+                                    </div>
+                                </div>
+                                <div class="center aligned four wide column">
+                                    <div class="title">
+                                        <span class="word bold">Cà</span><span class="space"></span><span class="word small">phê</span><span class="space end"></span>
+                                        <span class="line"><span class="word bold">Tr</span><span class="word small">ứng</span></span>
+                                    </div>
+                                </div>
+                                <div class="middle aligned six wide column col-content">
+                                    <div class="right content">
+                                        Quán cà phê trứng ở đây lúc nào cũng dông khách, cả khách nước ngoài lẫn những bạn trẻ mong muốn tìm hương vị nồng nàn ấm nóng của cà phê.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui stackable grid">
+                            <div class="ui column info">
+                                <div class="author">Dosis, Lora</div>
+                                <div class="photographer">Photo: Hải Minh</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-12" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="author">BEVAN, MONTSERRAT, LORA</div>
+                            <div class="title">Đường về <span class="small">còn</span> <span class="new-line">xa lắm!</span></div>
+                            <div class="content">
+                                Đi xa anh nhớ quê nhà, nhớ canh rau muống nhớ cà giầm tương.
+                                Nhớ tình bố mẹ yêu thương, nhớ mảnh vườn nhỏ, con đường quen thân.
+                                Nhớ nhà em cách khoảng sân, hoa cau thơm ngát mỗi lần gió đưa.
+                                Nhớ nhiều những sớm những trưa, đổi công em cấy, cày bừa anh lo.
+                                Nhớ đồng xanh mỏi cánh cò, con đê, bến cũ, con đò ngày xưa.
+                            </div>
+                            <div class="photographer">Photo: Võ Ngọc Bảo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-13" class="row has-cloud">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="head">
+                                <div class="author">MONTSERRAT, DANCING SCRIPT, BITTER</div>
+                                <div class="photographer">PHOTO: HẢI MINH</div>
+                            </div>
+                            <div class="title">
+                                Biển mây <span class="small">trên</span>
+                                <br>núi Fansipan
+                            </div>
+                            <div class="content">
+                                Thờ cha mẹ ở hết lòng, ấy là chữ hiếu, dạy trong luân thường.
+                                Làm trai nết đủ trăm đường, trước tiên điều hiếu đạo thường xưa nay.
+                                Công cha đức mẹ cao dày, cưu mang trứng nước những ngày ngây thơ.
+                                Nuôi con khó nhọc đến giờ, trưởng thành con phải biết thờ hai thân.
+                                Thức khuya dạy sớm chuyên cần, quạt nồng ấp lạnh giữ phần đạo con.
+                                Mẹ ơi đừng đánh con đau, quay tơ đánh ống làm giàu mẹ coi.
+                                Con tôm lột vỏ bỏ đuôi, gạo ngon nhớ để mà nuôi mẹ già.
+                                Mẹ già là mẹ già anh, em vô bảo dưỡng cá canh cho thường.
+                                Mẹ già như chuối ba hương, như xôi nếp một, như đường mia lau.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cloud"></div>
+        </div>
+
+        <div id="page-14" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="photographer">
+                                PHOTO: LÊ HỒNG HÀ
+                            </div>
+                            <div class="title">
+                                Cuộc sống
+                                <br>
+                                Là không công bằng
+                            </div>
+                            <div class="content">
+                                <div class="ui divider"></div>
+                                <div class="ui stackable two column grid">
+                                    <div class="column text">
+                                        Khi bạn nhìn thấy bức ảnh này nghĩa là bạn đã may mắn hơn rất nhiều người.
+                                        Đừng bao giờ than rằng cuộc sống của bạn thật khổ sở nghèo khó,
+                                        vì trên đời này còn rất nhiều người khổ hơn bạn nhiều.
+                                        Hãy biết yêu thương sinh mạng và bản thận của bạn.
+                                    </div>
+                                    <div class="column text">
+                                        Bởi những người đó vẫn cố gắng từng ngày để được sống, thì sao bạn lại ngồi đây than phiền?
+                                        Hãy cố gắng để có một cuộc sống tốt hơn, yêu thương giúp đỡ mọi người xung quanh,
+                                        và sống một cuộc đời có ý nghĩa. Như vậy chẳng phải là đã đủ rồi sao?
+                                        <div class="author">
+                                            QUICKSAND PRO, MULI NEW
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-15" class="row">
+            <div class="ui container">
+                <div class="ui grid">
+                    <div class="ui column">
+                        <div class="wraper">
+                            <div class="title">
+                                Hoàng hôn
+                                <br>
+                                Mùa hạ
+                            </div>
+                            <div class="author">
+                                MULI NEW, NUNITO
+                            </div>
+                            <div class="content">
+                                Nhờ trời mưa gió thuận hoà, nào cày nào cấy, trẻ già đua nhau.
+                                Chim gà cá lợn cành cau, mùa nào thức ấy giữ màu nhà quê.
+                                Cái cò mày mổ cái tôm, cái tôm quặp lại, lại ôm cái cò.
+                                Cái cò mày mổ cái trai, cái trai quặp lại, lại nhai cái cò.
+                                Mặt trời tang tảng rạng đông, Chàng ơi! Trở dậy ra đồng kẻo trưa.
+                                Phận hèn bao quản nắng mưa, cày sau bừa kỹ được mùa có khi.
+                            </div>
+                            <div class="photographer">
+                                PHOTO: LÊ HỒNG HÀ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

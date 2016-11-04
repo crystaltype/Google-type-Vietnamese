@@ -1,0 +1,191 @@
+@font-face {
+    font-family:'Lora';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Lora-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family:'Lora Italic';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Lora-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family:'OldStandard';
+    font-style:normal;
+    src:local('☺︎'), url("../font/OldStandard-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Oswald';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Oswald-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Oswald Bold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Oswald-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Oswald Medium';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Oswald-Medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Oswald Light';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Oswald-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Bitter';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Bitter-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Bitter Bold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Bitter-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Bitter Italic';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Bitter-Italic.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'YesevaOne';
+    font-style:normal;
+    src:local('☺︎'), url("../font/YesevaOne-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'LibreFranklin ExtraBold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/LibreFranklin-ExtraBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'YanoneKaffeesatz Light';
+    font-style:normal;
+    src:local('☺︎'), url("../font/YanoneKaffeesatz-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'JosefinSans';
+    font-style:normal;
+    src:local('☺︎'), url("../font/JosefinSans-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'JosefinSans Bold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/JosefinSans-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'JosefinSans Thin';
+    font-style:normal;
+    src:local('☺︎'), url("../font/JosefinSans-Thin.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'DancingScript';
+    font-style:normal;
+    src:local('☺︎'), url("../font/DancingScript-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Philosopher';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Philosopher-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Pacifico';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Pacifico-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:'Merriweather';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:'Raleway';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Raleway-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Arvo';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Arvo-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'MavenPro';
+    font-style:normal;
+    src:local('☺︎'), url("../font/MavenPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'YesevaOne';
+    font-style:normal;
+    src:local('☺︎'), url("../font/YesevaOne-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Dosis SemiBold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Dosis-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Montserrat Light';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Montserrat-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Montserrat ExtraBold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Montserrat-ExtraBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'MuliNew Black';
+    font-style:normal;
+    src:local('☺︎'), url("../font/MuliNew-Black.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'MuliNew ExtraBold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/MuliNew-ExtraBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Nunito Light';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Nunito-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'QuicksandPro Bold';
+    font-style:normal;
+    src:local('☺︎'), url("../font/QuicksandPro-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family:'Bevan';
+    font-style:normal;
+    src:local('☺︎'), url("../font/Bevan-Regular.otf") format("truetype");
+}
